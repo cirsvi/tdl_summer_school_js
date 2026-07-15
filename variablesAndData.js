@@ -51,7 +51,7 @@ console.log('pet' in globalThis); // Not in global scope -> false
 
 // -----------------------------------------------------------------------------
 // Global variable --> Bad practice:
-globNumb = 10; // The global value can be modified from anywhere in your application (including other file).
+globNumb = 10; // The global value can be modified from anywhere in your application (including other file).  --> But I am not sure.
 console.log(globNumb);
 console.log(global.globNumb);
 console.log('globNumb' in globalThis); // true
