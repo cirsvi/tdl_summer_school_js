@@ -127,3 +127,25 @@ const secondNumberToBool = Boolean(secondNumber);
 
 console.log(firstNumberToBool); // true
 console.log(secondNumberToBool); // false
+
+// - Difference between working with primitive and reference;
+const number1 = 228;
+const array1 = [1, 2, 3];
+
+let number2 = number1;
+const array2 = array1; // point to the object (aka copies the reference), changing the array2 will affect array1
+
+console.log(number1);
+console.log(number2);
+
+console.log(array1);
+console.log(array2);
+
+number2 = 328;
+array2.push(4);
+
+console.log(number1);
+console.log(number2);
+
+console.log(array1);
+console.log(array2);
