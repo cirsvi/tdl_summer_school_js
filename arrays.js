@@ -43,7 +43,7 @@ const upperCars = cars.map(car => {
 console.log(upperCars);
 
 
-// - .filter() - creates a new array with elements that match teh condition
+// - .filter() - creates a new array with elements that match the condition
 const shortCars = cars.filter(car => car.length < 7);
 console.log(shortCars);
 
